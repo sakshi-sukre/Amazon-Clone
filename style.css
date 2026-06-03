@@ -4,6 +4,22 @@
     padding: 0;
     box-sizing: border-box;
 
+    @media(max-width:768px ) {
+        .box{
+            width:48%;
+        }
+        
+        .navbar{
+            flex-wrap:wrap;
+        }
+    }
+
+    @media(max-width:480px){
+        .box{
+            width:95%;
+        }
+    }
+    
     .navbar {
         height: 60px;
         background-color: #0f1111;
@@ -195,6 +211,7 @@
     }
 
     /**boxes**/
+
     .shop-section {
         display: flex;
         flex-wrap: wrap;
